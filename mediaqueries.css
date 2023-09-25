@@ -1,0 +1,73 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav{
+        display: none;
+    }
+
+    #mob-nav{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #mob-nav {
+    display: flex;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  .contact-upper,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-container {
+    margin: 0;
+  }
+  .contact-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  .linkedin-icon-contact{
+    height: 1.5rem;
+  }
+  .email-icon{
+    height: 2rem;
+  }
+}
