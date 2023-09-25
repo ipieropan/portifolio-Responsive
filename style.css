@@ -137,7 +137,7 @@ a:hover{
     opacity: 1;
 }
 
-/* Profile section */
+/* Profile section styled */
 
 section{
     padding-top: 4vh;
@@ -196,7 +196,7 @@ section{
   gap: 1rem;
 }
 
-/* Icons */
+/* Icons styled */
 
 .icon{
     cursor: pointer;
@@ -207,7 +207,7 @@ section{
     height: 2.5rem;
 }
 
-/* BUTTONS */
+/* Buttons styled */
 
 .btn-container {
   display: flex;
